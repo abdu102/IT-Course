@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1249px;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__list{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.nav__list--item{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #4F5665;
+}
+.nav__list--item:hover{
+    color: #F53838;
+}
+.nav__logo{
+    list-style-type: none;
+}
+.nav__btn{
+    width: 280px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__btn button{
+    width: 120px;
+    height: 45px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+border: none;
+
+color: #0B132A;
+}
+.nav__btn button:last-child{
+    border: 1px solid #F53855;
+border-radius: 50px;
+
+}
+.nav__btn button:last-child:hover{
+    font-family: 'Rubik';
+    background-color: #F53838;
+color: #FFFFFF;
+border: none;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+
+transition: 0.2s;
+}
+
+/* header----------------------------- */
+
+.intro{
+
+    margin-top: 30px;
+    
+    padding: 20px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.intro__ab{
+    padding: 10px;
+    width: 46%;
+    height: 60%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.intro__ab h1{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 70px;
+/* or 140% */
+
+
+color: #0B132A
+}
+.intro__ab p{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 27px;
+/* or 188% */
+
+
+color: #4F5665;
+
+}
+.intro__ab button{
+    background: #F53838;
+border-radius: 10px;
+width: 230px;
+height: 53px;
+border: none;
+
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+/* identical to box height, or 156% */
+
+
+
+color: #FFFFFF;
+box-shadow: 1px 38px 46px 0px rgba(255, 13, 13, 0.21);
+}
+
+.intro__ab button:hover{
+    background-color: #FFFFFF;
+    border: 1px solid #F53855;
+transition: 0.3s;
+color: #0B132A;
+}
