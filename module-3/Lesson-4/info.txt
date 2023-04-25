@@ -1,0 +1,41 @@
+switch () 
+
+example :
+let score = +prompt("Baho sonini kiriting !");
+
+switch ( score ) {
+    case 1:
+        alert("Baho yomon");
+        break;
+
+    case 2:
+        alert("Baho qoniqarsiz");
+        break;
+
+    case 3:
+        alert("Baho qoniqarli");
+        break;
+
+    case 4:
+        alert("Baho yaxshi");
+        break;
+
+    default:
+        alert("Unday baho yoq !")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

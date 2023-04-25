@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>a</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        
+            <div class="container flex justify-center h-[100vh] items-center">
+                <div class="w-full max-w-lg p-2 bg-blue-700">
+                    <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+                      <div class="mb-4">
+                        <label class="block text-gray-700 text-sm font-bold mb-2"  for="FULLNAME">
+                          Fullname
+                        </label>
+                        <input id="fullname" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" type="text" placeholder="Fullname">
+                      </div>
+                      <div class="mb-4">
+                        <label  class="block text-gray-700 text-sm font-bold mb-2" for="Username">
+                          Username
+                        </label>
+                        <input id="username" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"  type="text" placeholder="Username">
+                      </div>
+                      <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="Phone">
+                          Phone number
+                        </label>
+                        <input id="phone" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" type="number" placeholder="998-123-45-67">
+                        <p class="text-xs italic">Please enter phone number.</p>
+                      </div>
+
+                      <div class="mb-6">
+                        <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                          Password
+                        </label>
+                        <input id="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"  type="password" placeholder="******************">
+                        <p class=" text-xs italic">Please create the password..</p>
+                      </div>
+                      <div class="flex items-center justify-between">
+                        <button id="signUpBtn" class="bg-blue-500 hover:bg-blue-700 w-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+                          Sign Up
+                        </button>
+                        
+                      </div>
+                    </form>
+                    
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./js/utils.js"></script>
+<script src="./js/script.js"></script>
+</html>

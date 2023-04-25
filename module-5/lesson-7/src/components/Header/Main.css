@@ -1,0 +1,10 @@
+.site-header{
+    background-color: rgb(246, 255, 0);
+    padding: 20px 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
